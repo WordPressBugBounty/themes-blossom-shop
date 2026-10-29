@@ -33,6 +33,11 @@ const pluginList = [
         description: __("Formerly 'Instagram Feed'. Display clean, customizable, and responsive Instagram feeds from multiple accounts. Supports Instagram oEmbeds.", "blossom-shop"),
         slug: "instagram-feed"
     },
+    {
+        pluginName: __( 'PayLexer', 'blossom-shop' ),
+        description: __("PayLexer connects any payment gateway to your existing WordPress plugin checkout flow. Simple setup, no coding required.", "blossom-shop"),
+        slug: "paylexer"
+    },
 ];
 
 const objectExistsInArray = (obj, array) => {

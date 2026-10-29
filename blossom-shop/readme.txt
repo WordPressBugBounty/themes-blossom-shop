@@ -3,8 +3,8 @@
 Contributors: blossomthemes
 Requires at least: 6.2
 Requires PHP: 7.4
-Tested up to: 6.9
-Stable tag: 1.2.3
+Tested up to: 7.1
+Stable tag: 1.2.4
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, footer-widgets, custom-background, custom-header, custom-menu, custom-logo, featured-images, threaded-comments, full-width-template, rtl-language-support, translation-ready, theme-options, e-commerce, portfolio
@@ -100,6 +100,10 @@ All other images including icon image used in screenshot and images used in cust
 
 == Changelog ==
 
+    1.2.4 - October 26, 2026
+        * Fix: Starter Sites page not displaying due to a missing sprintf import.
+        * Update: Recommended PayLexer WordPress Plugin.
+
     1.2.3 - April 06, 2026
         * Fix: Updated PHP to 7.4
         * Update: Google Fonts Library has been updated.
@@ -149,7 +153,7 @@ All other images including icon image used in screenshot and images used in cust
         * Fixed: jQuery deprecated warnings
         * Added: link underline in post/page
         * Updated: Google Fonts
-        * Removed block widgets for wordpress 5.8
+        * Removed block widgets for WordPress 5.8
     
     1.1.1 - December 25, 2020
         * Fixed: customizer load issue

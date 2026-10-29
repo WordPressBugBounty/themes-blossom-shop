@@ -77,6 +77,11 @@ function blossom_shop_register_required_plugins() {
 			'slug'      => 'contact-form-7',
 			'required'  => false,
 		),
+		array(
+			'name'      => __( 'PayLexer', 'blossom-shop' ),
+			'slug'      => 'paylexer',
+			'required'  => false,
+		),
 	);
 
 	/*

@@ -1,6 +1,6 @@
 import { Icon } from "../../components";
 import { single, homepage, archive } from "../../components/images"
-import { __ } from "@wordpress/i18n";
+import { __, sprintf } from "@wordpress/i18n";
 
 const StarterSites = () => {
     return (
